@@ -70,6 +70,9 @@ class InvoiceController extends ActiveController
         }*/
     }
 
+    /*
+     * Update Action   
+    */
     public function actionUpdate(){
             echo "update an existing resource"   ;die;
             $invoice = InvoiceTest::findOne(1);
